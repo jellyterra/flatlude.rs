@@ -1,0 +1,15 @@
+[package]
+name = "flatlude"
+version = "0.1.0"
+edition = "2024"
+license = "Unlicense"
+repository = "https://github.com/jellyterra/flatlude.rs"
+description = "Proc-macro for prelude mods."
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "2.0.108"
+quote = "1.0.41"
+proc-macro2 = "1.0.103"
